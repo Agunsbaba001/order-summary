@@ -1,0 +1,116 @@
+:root{
+    --Pale-blue: hsl(225, 100%, 94%);
+    --Bright-blue: hsl(245, 75%, 52%);
+    --Very-pale-blue: hsl(225, 100%, 98%);
+    --Desaturated-blue: hsl(224, 23%, 55%);
+    --Dark-blue: hsl(223, 47%, 23%);
+}
+body{
+    background-image: url(/images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-color: var(--Pale-blue);
+    justify-content: center; 
+    align-items: center;
+    display: flex; 
+    align-items: center; 
+    text-align: center; 
+    justify-content: center; 
+    position: fixed;  
+    width: 50%;
+}
+.everything{
+    width: 300px;
+}
+    /* font-family: 'Outfit', sans-serif;
+font-family: 'Red Hat Display', sans-serif; */
+.boxb{
+    background-image: url(/images/illustration-hero.svg);
+    width: 440px;
+    height: 220px;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px 15px 0 0;
+    margin-top: 70px;
+}
+.boxv{
+    background-color: whitesmoke;
+    width: 440px;
+    height: 440px;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0 0 15px 15px;
+    margin-top: 220px; 
+    font-family: 'Red Hat Display', sans-serif; 
+}
+.audio{
+    font-size: larger;
+    position: relative;
+}
+.b3{
+    background-color: hsl(223, 63%, 87%);
+    width: 90%;
+    height: 22%;
+    /* position: absolute; */
+    border-radius: 15px;
+    /* justify-content: space-between; */
+    display: flex;
+    margin-left: 20px;
+    font-family: 'Red Hat Display', sans-serif;
+    
+}
+p{
+    font-size: larger;
+}
+span{
+    /* font-weight:900; */
+}
+img{
+    /* width: %; */
+    height: 55%;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+.price{
+    font-weight:lighter;
+    margin-top: 5%;
+    font-size:  19px;
+    color: hsl(224, 16%, 74%);
+}
+h3{
+    margin-left: 5%;  
+}
+.violence{
+    margin-left: 22%;
+    text-decoration: underline; 
+    text-decoration-color: blue; 
+    color: blue;
+    margin-top: 9%;
+}
+.l-one{
+    background-color: blue;
+    border-radius: 10px;
+    height: 15%;
+    width: 90%;
+    margin-left: 4.5%;
+    box-shadow: 15px 15px 15px var(--Pale-blue)
+
+}
+.l-t{
+    color: whitesmoke;
+    font-family: 'Red Hat Display', sans-serif;
+    padding-top: 4%;
+    font-size:  19px;
+    font-weight:bold;
+}
+.commango{
+    color: grey;
+    font-family: 'Red Hat Display', sans-serif;
+    padding-top: 4%;
+    font-size:  18px;
+    font-weight:bold;
+}
+
+
+
